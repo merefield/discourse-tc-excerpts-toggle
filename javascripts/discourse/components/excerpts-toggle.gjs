@@ -13,6 +13,10 @@ export default class excerptToggleButtonComponent extends Component {
   @action
   toggleExcerpts() {
     this.excerptsEnabled = !this.excerptsEnabled;
+    if (settings.excerpts_toggle_cause_mini_scroll_for_topic_list_previews_tiles_resize) {
+      window.scrollBy(0, 1);
+      window.scrollBy(0, -1);
+    }
   }
 
   get bodyExcerptClass() {
