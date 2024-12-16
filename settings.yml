@@ -1,0 +1,8 @@
+excerpts_enabled:
+  default: false
+  description:
+    en: "Excerpt toggle default state"
+svg_icons: 
+  default: 'align-justify'
+  type: 'list'
+  list_type: 'compact'

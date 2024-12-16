@@ -1,0 +1,10 @@
+body.excerpts-disabled {
+  button.excerpts-toggle svg {
+    color: $primary-low-mid;
+  }
+  .topic-list-item {
+    .topic-excerpt {
+      display: none;
+    }
+  } 
+}
