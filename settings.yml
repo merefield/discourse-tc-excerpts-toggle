@@ -2,10 +2,10 @@ excerpts_enabled:
   default: false
   description:
     en: "Excerpt toggle default state"
-excerpts_toggle_cause_mini_scroll_for_topic_list_previews_tiles_resize:
+topic_list_previews_compatibility:
   default: false
   description:
-    en: "Don't need if you don't have TLP installed: cause minute up & down scroll move to resize tiles on Topic List Previews when toggling excerpts to fix sizes"
+    en: "Topic List Previews only: when toggling excerpts fix tile sizes"
 svg_icons: 
   default: 'align-justify'
   type: 'list'
