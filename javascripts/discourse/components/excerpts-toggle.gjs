@@ -13,9 +13,10 @@ export default class excerptToggleButtonComponent extends Component {
   @action
   toggleExcerpts() {
     this.excerptsEnabled = !this.excerptsEnabled;
+
     if (settings.topic_list_previews_compatibility) {
-      window.scrollBy(0, 1);
-      window.scrollBy(0, -1);
+      window.scrollBy(0, -2);
+      window.scrollBy(0, 2);
     }
   }
 
