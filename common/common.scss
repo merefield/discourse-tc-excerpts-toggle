@@ -3,8 +3,10 @@ body.excerpts-disabled {
     color: $primary-low-mid;
   }
   .topic-list-item {
-    .topic-excerpt {
-      display: none;
+    &:not(.pinned) {
+      .topic-excerpt {
+        display: none;
+      }
     }
-  } 
+  }
 }
