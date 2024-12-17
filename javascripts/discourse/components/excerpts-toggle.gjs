@@ -5,7 +5,7 @@ import bodyClass from "discourse/helpers/body-class";
 import Component from "@glimmer/component";
 import DButton from "discourse/components/d-button";
 import didInsert from "@ember/render-modifiers/modifiers/did-insert";
-import didUpdate from "@ember/render-modifiers/modifiers/did-update";
+import { i18n } from "discourse-i18n";
 
 export default class excerptToggleButtonComponent extends Component {
   @service router;
@@ -48,6 +48,7 @@ export default class excerptToggleButtonComponent extends Component {
           @action={{this.toggleExcerpts}}
           @icon={{this.toggleIcon}}
           class="excerpts-toggle"
+          title={{i18n (themePrefix "excerpts_toggle.title")}}
         />
       </div>
     {{/if}}
