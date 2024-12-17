@@ -6,7 +6,7 @@ topic_list_previews_compatibility:
   default: false
   description:
     en: "Topic List Previews only: when toggling excerpts fix tile sizes"
-svg_icons: 
+toggle_icons: 
   default: 'align-justify'
-  type: 'list'
-  list_type: 'compact'
+  description:
+    en: "The icon you wish to use for the toggle button from the range of Font Awesome icons."
