@@ -7,7 +7,7 @@ import DButton from "discourse/components/d-button";
 import didInsert from "@ember/render-modifiers/modifiers/did-insert";
 import { i18n } from "discourse-i18n";
 
-export default class excerptToggleButtonComponent extends Component {
+export default class excerptsToggleButtonComponent extends Component {
   @service router;
   @service session;
   @tracked excerptsEnabled;
