@@ -20,6 +20,12 @@ export default class excerptsToggleButtonComponent extends Component {
     if (settings.topic_list_previews_compatibility) {
       window.scrollBy(0, -1);
       window.scrollBy(0, 1);
+      try {
+        // TLP resize for masonry
+        Window.triggerResize();
+      } catch (e) {
+        // do nothing
+      }
     }
   }
 
